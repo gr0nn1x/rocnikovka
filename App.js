@@ -1,29 +1,31 @@
 import React, { useEffect } from "react";
-import { View, Text, StyleSheet } from "react-native";
-import dataList from "./data.json";
+import { View, Text, StyleSheet,ScrollView } from "react-native";
+import dataList from "./data/data.json";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      {dataList.map((data) => {
-        return (
-          <View
-            key={data.id}
-            style={[
-              {
-                left: data.x,
-                top: data.y,
-                width: data.width,
-                height: data.height,
-              },
-              styles.room,
-            ]}
-          >
-            <Text>{data.name}</Text>
-          </View>
-        );
-      })}
-    </View>
+   
+      <View style={styles.container}>
+        {dataList.map((data) => {
+          return (
+            <View
+              key={data.id}
+              style={[
+                {
+                  left: data.x,
+                  top: data.y,
+                  width: data.width,
+                  height: data.height,
+                },
+                styles.room,
+              ]}
+            >
+              <Text>{data.name}</Text>
+            </View>
+          );
+        })}
+      </View>
+  
   );
 }
 
