@@ -1,39 +1,48 @@
 [
-    {
-      "id": 30,
-      "name": "Učebna 30",
-      "x": 400,
-      "y": 100,
-      "width": 150,
-      "height": 50,
-      "teachers": ["Till", "Esch"]
-    },
-    {
-      "id": 31,
-      "name": "Učebna 31",
-      "x": 250,
-      "y": 100,
-      "width": 150,
-      "height": 50,
-      "teachers": ["Svobodova"]
-    },
-    {
-      "id": 32,
-      "name": "Učebna 21313",
-      "x": 350,
-      "y": 200,
-      "width": 150,
-      "height": 50,
-      "teachers": ["KYS"]
-    },
-    {
-      "id": 33,
-      "name": "Učebna 10",
-      "x": 50,
-      "y": 200,
-      "width": 150,
-      "height": 50,
-      "teachers": ["KYS"]
-    }
-  ]
-  
+  {
+    "id": 30,
+    "name": "Učebna 30",
+    "x": 400,
+    "y": 100,
+    "width": 150,
+    "height": 50,
+    "teachers": ["Till", "Esch"],
+    "color": "red"
+  },
+  {
+    "id": 31,
+    "name": "Učebna 31",
+    "x": 250,
+    "y": 100,
+    "width": 150,
+    "height": 50,
+    "teachers": ["Svobodova"]
+  },
+  {
+    "id": 32,
+    "name": "Učebna 21313",
+    "x": 350,
+    "y": 200,
+    "width": 150,
+    "height": 50,
+    "teachers": ["KYS"]
+  },
+  {
+    "id": 33,
+    "name": "Učebna 10",
+    "x": 50,
+    "y": 200,
+    "width": 150,
+    "height": 50,
+    "teachers": ["KYS"]
+  },
+  {
+    "id": 33,
+    "name": "Učebna 12323",
+    "x": 50,
+    "y": 300,
+    "width": 150,
+    "height": 50,
+    "teachers": ["KYS"]
+  }
+]

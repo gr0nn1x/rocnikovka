@@ -1,10 +1,14 @@
-import React, { useEffect } from "react";
-import { View, Text, StyleSheet,ScrollView } from "react-native";
+import React from "react";
+import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import dataList from "./data/data.json";
 
 export default function App() {
+  const test = (data) => {
+    console.log(data.id);
+  };
+
   return (
-   
+    <ScrollView horizontal={true}>
       <View style={styles.container}>
         {dataList.map((data) => {
           return (
@@ -16,22 +20,26 @@ export default function App() {
                   top: data.y,
                   width: data.width,
                   height: data.height,
+                  borderColor: data.color,
                 },
                 styles.room,
               ]}
             >
-              <Text>{data.name}</Text>
+              <Pressable onPress={() => test(data)}>
+                <Text>{data.name}</Text>
+              </Pressable>
             </View>
           );
         })}
       </View>
-  
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    width: 10000,
+    height: 10000,
     backgroundColor: "plum",
   },
   room: {
@@ -40,6 +48,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "black",
+   
   },
+  body: {},
 });
