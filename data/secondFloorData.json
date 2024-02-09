@@ -1,0 +1,13 @@
+[
+    {
+      "id": 30,
+      "name": "roomka 90",
+      "x": 100,
+      "y": 100,
+      "width": 150,
+      "height": 50,
+      "teachers": ["Till", "Esch"],
+      "color": "#0F1035"
+    }
+  ]
+  

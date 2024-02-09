@@ -9,7 +9,10 @@ import {
   Button,
   Dimensions,
 } from "react-native";
-import dataList from "./data/data.json";
+import groundDataList from "./data/groundFloorData.json";
+import firstDataList from "./data/firstFloorData.json";
+import secondDataList from "./data/secondFloorData.json";
+import basementDataList from "./data/basementFloorData.json";
 
 const windowHeight = Dimensions.get("window").height;
 const windowWidth = Dimensions.get("window").width;
@@ -17,6 +20,8 @@ const windowWidth = Dimensions.get("window").width;
 export default function App() {
   const [selectedData, setSelectedData] = useState(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [dataList, setDataList] = useState(groundDataList);
+  const [selectedFloor, setSelectedFloor] = useState("ground"); 
 
   const test = (data) => {
     setSelectedData(data);
@@ -25,6 +30,28 @@ export default function App() {
 
   const closeModal = () => {
     setIsModalVisible(false);
+  };
+
+  const changeFloorToSecond = () => {
+    console.log("second floor");
+    setSelectedFloor("second");
+    setDataList(secondDataList);
+  };
+  const changeFloorToFirst = () => {
+    console.log("first floor");
+    setSelectedFloor("first");
+    setDataList(firstDataList);
+  };
+
+  const changeFloorToGround = () => {
+    console.log("ground floor");
+    setSelectedFloor("ground");
+    setDataList(groundDataList);
+  };
+  const changeFloorToBasement = () => {
+    console.log("basement floor");
+    setSelectedFloor("basement");
+    setDataList(basementDataList);
   };
 
   return (
@@ -81,18 +108,26 @@ export default function App() {
         </Modal>
       </ScrollView>
       <View style={styles.fixedView}>
-        <View style={[styles.switch, styles.switchOne]}>
-          <Text style={styles.switchText}>Třetí Patro</Text>
-        </View>
-        <View style={[styles.switch, styles.switchTwo]}>
-          <Text style={styles.switchText}>Druhé Patro</Text>
-        </View>
-        <View style={[styles.switch, styles.switchThree]}>
-          <Text style={styles.switchText}>Přízemí</Text>
-        </View>
-        <View style={[styles.switch, styles.switchFour]}>
-          <Text style={styles.switchText}>Nulté Patro</Text>
-        </View>
+        <TouchableWithoutFeedback onPress={changeFloorToSecond}>
+          <View style={[styles.switch, styles.switchOne, selectedFloor === "second" && styles.selectedFloor]}>
+            <Text style={styles.switchText}>Druhé Patro</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={changeFloorToFirst}>
+          <View style={[styles.switch, styles.switchTwo, selectedFloor === "first" && styles.selectedFloor]}>
+            <Text style={styles.switchText}>První Patro</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={changeFloorToGround}>
+          <View style={[styles.switch, styles.switchThree, selectedFloor === "ground" && styles.selectedFloor]}>
+            <Text style={styles.switchText}>Přízemí</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={changeFloorToBasement}>
+          <View style={[styles.switch, styles.switchFour, selectedFloor === "basement" && styles.selectedFloor]}>
+            <Text style={styles.switchText}>Nulté Patro</Text>
+          </View>
+        </TouchableWithoutFeedback>
       </View>
     </View>
   );
@@ -153,7 +188,6 @@ const styles = StyleSheet.create({
     height: windowHeight * 0.06,
     width: windowWidth * 0.95,
     marginTop: 10,
-    backgroundColor: "black",
     borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
@@ -162,4 +196,9 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 20,
   },
+  switchOne: { backgroundColor: "black" },
+  switchTwo: { backgroundColor: "black" },
+  switchThree: { backgroundColor: "black" },
+  switchFour: { backgroundColor: "black" },
+  selectedFloor: { backgroundColor: "grey" }, 
 });
