@@ -21,7 +21,7 @@ export default function App() {
   const [selectedData, setSelectedData] = useState(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [dataList, setDataList] = useState(groundDataList);
-  const [selectedFloor, setSelectedFloor] = useState("ground"); 
+  const [selectedFloor, setSelectedFloor] = useState("ground");
 
   const test = (data) => {
     setSelectedData(data);
@@ -73,6 +73,7 @@ export default function App() {
                         width: data.width,
                         height: data.height,
                         borderColor: data.color,
+                        backgroundColor: data.bgcolor,
                       },
                       styles.room,
                     ]}
@@ -109,22 +110,46 @@ export default function App() {
       </ScrollView>
       <View style={styles.fixedView}>
         <TouchableWithoutFeedback onPress={changeFloorToSecond}>
-          <View style={[styles.switch, styles.switchOne, selectedFloor === "second" && styles.selectedFloor]}>
+          <View
+            style={[
+              styles.switch,
+              styles.switchOne,
+              selectedFloor === "second" && styles.selectedFloor,
+            ]}
+          >
             <Text style={styles.switchText}>Druhé Patro</Text>
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={changeFloorToFirst}>
-          <View style={[styles.switch, styles.switchTwo, selectedFloor === "first" && styles.selectedFloor]}>
+          <View
+            style={[
+              styles.switch,
+              styles.switchTwo,
+              selectedFloor === "first" && styles.selectedFloor,
+            ]}
+          >
             <Text style={styles.switchText}>První Patro</Text>
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={changeFloorToGround}>
-          <View style={[styles.switch, styles.switchThree, selectedFloor === "ground" && styles.selectedFloor]}>
+          <View
+            style={[
+              styles.switch,
+              styles.switchThree,
+              selectedFloor === "ground" && styles.selectedFloor,
+            ]}
+          >
             <Text style={styles.switchText}>Přízemí</Text>
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={changeFloorToBasement}>
-          <View style={[styles.switch, styles.switchFour, selectedFloor === "basement" && styles.selectedFloor]}>
+          <View
+            style={[
+              styles.switch,
+              styles.switchFour,
+              selectedFloor === "basement" && styles.selectedFloor,
+            ]}
+          >
             <Text style={styles.switchText}>Nulté Patro</Text>
           </View>
         </TouchableWithoutFeedback>
@@ -138,13 +163,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
-    width: 700,
-    height: 1000,
+    width: 1000,
+    height: 1500,
     backgroundColor: "#DCF2F1",
   },
   room: {
     position: "absolute",
-    backgroundColor: "#7FC7D9",
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 1,
@@ -200,5 +224,5 @@ const styles = StyleSheet.create({
   switchTwo: { backgroundColor: "black" },
   switchThree: { backgroundColor: "black" },
   switchFour: { backgroundColor: "black" },
-  selectedFloor: { backgroundColor: "grey" }, 
+  selectedFloor: { backgroundColor: "grey" },
 });

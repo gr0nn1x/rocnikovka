@@ -1,13 +1,70 @@
 [
   {
+    "id": 1,
+    "name": "  V       ch      o      d",
+    "x": 160,
+    "y": 200,
+    "width": 30,
+    "height": 100,
+    "teachers": ["Till", "Esch"],
+    "color": "#0F1035",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 2,
+    "name": "Hall One",
+    "x": 190,
+    "y": 200,
+    "width": 600,
+    "height": 100,
+    "teachers": ["Till", "Esch"],
+    "color": "red",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 3,
+    "name": "Hall Two",
+    "x": 220,
+    "y": 300,
+    "width": 100,
+    "height": 400,
+    "teachers": ["Till", "Esch"],
+    "color": "red",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 4,
+    "name": "Hall Three",
+    "x": 690,
+    "y": 300,
+    "width": 100,
+    "height": 500,
+    "teachers": ["Till", "Esch"],
+    "color": "red",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 5,
+    "name": "Školník",
+    "x":120,
+    "y": 300,
+    "width": 100,
+    "height": 30,
+    "teachers": ["UwU školník"],
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+
+  {
     "id": 30,
     "name": "Učebna 30",
-    "x": 100,
-    "y": 100,
+    "x": 200,
+    "y": 420,
     "width": 150,
     "height": 50,
     "teachers": ["Till", "Esch"],
-    "color": "#0F1035"
+    "color": "red",
+    "bgcolor": "#7FC7D9"
   },
   {
     "id": 31,
@@ -16,6 +73,17 @@
     "y": 100,
     "width": 150,
     "height": 50,
-    "teachers": ["Svobodova"]
+    "teachers": ["Svobodova"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 33,
+    "name": "Učebna 31",
+    "x": 250,
+    "y": 100,
+    "width": 150,
+    "height": 50,
+    "teachers": ["Svobodova"],
+    "bgcolor": "#7FC7D9"
   }
 ]
