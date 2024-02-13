@@ -6,7 +6,6 @@
     "y": 200,
     "width": 30,
     "height": 100,
-    "teachers": ["Till", "Esch"],
     "color": "#0F1035",
     "bgcolor": "#7FC7D9"
   },
@@ -45,45 +44,93 @@
   },
   {
     "id": 5,
+    "name": "Schody 1",
+    "x": 220,
+    "y": 700,
+    "width": 100,
+    "height": 50,
+    "teachers": ["UwU školník"],
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 6,
+    "name": "SCODY 2",
+    "x": 90,
+    "y": 570,
+    "width": 130,
+    "height": 120,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 7,
+    "name": "Hall Square One",
+    "x": 220,
+    "y": 750,
+    "width": 100,
+    "height": 100,
+    "teachers": ["Till", "Esch"],
+    "color": "red",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 8,
     "name": "Školník",
-    "x":120,
+    "x": 120,
     "y": 300,
     "width": 100,
     "height": 30,
     "teachers": ["UwU školník"],
-    "color": "black",
     "bgcolor": "#7FC7D9"
   },
-
+  {
+    "id": 9,
+    "name": "paní jídelní",
+    "x": 90,
+    "y": 750,
+    "width": 130,
+    "height": 50,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 10,
+    "name": "Liškis",
+    "x": 90,
+    "y": 800,
+    "width": 130,
+    "height": 50,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
   {
     "id": 30,
     "name": "Učebna 30",
-    "x": 200,
-    "y": 420,
-    "width": 150,
-    "height": 50,
+    "x": 90,
+    "y": 330,
+    "width": 130,
+    "height": 150,
     "teachers": ["Till", "Esch"],
-    "color": "red",
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 31,
     "name": "Učebna 31",
-    "x": 250,
-    "y": 100,
-    "width": 150,
-    "height": 50,
-    "teachers": ["Svobodova"],
+    "x": 90,
+    "y": 480,
+    "width": 130,
+    "height": 150,
+    "teachers": ["Till", "Esch"],
     "bgcolor": "#7FC7D9"
   },
   {
-    "id": 33,
-    "name": "Učebna 31",
-    "x": 250,
-    "y": 100,
-    "width": 150,
-    "height": 50,
-    "teachers": ["Svobodova"],
+    "id": 32,
+    "name": "Učebna 32",
+    "x": 90,
+    "y": 630,
+    "width": 130,
+    "height": 120,
+    "teachers": ["Till", "Esch"],
     "bgcolor": "#7FC7D9"
   }
 ]
