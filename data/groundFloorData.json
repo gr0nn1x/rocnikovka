@@ -7,7 +7,8 @@
     "width": 30,
     "height": 100,
     "color": "#0F1035",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#7FC7D9",
+    "description": "aaaaaaaaaaaaaaaaaaaaaa"
   },
   {
     "id": 2,
@@ -16,8 +17,7 @@
     "y": 200,
     "width": 600,
     "height": 100,
-    "teachers": ["Till", "Esch"],
-    "color": "red",
+    "color": "FE7A36",
     "bgcolor": "#C7C8CC"
   },
   {
@@ -27,8 +27,7 @@
     "y": 300,
     "width": 100,
     "height": 400,
-    "teachers": ["Till", "Esch"],
-    "color": "red",
+    "color": "black",
     "bgcolor": "#C7C8CC"
   },
   {
@@ -38,8 +37,7 @@
     "y": 300,
     "width": 100,
     "height": 500,
-    "teachers": ["Till", "Esch"],
-    "color": "red",
+    "color": "black",
     "bgcolor": "#C7C8CC"
   },
   {
@@ -54,12 +52,11 @@
   },
   {
     "id": 6,
-    "name": "SCODY 2",
+    "name": "Schody 2",
     "x": 90,
     "y": 570,
     "width": 130,
     "height": 120,
-    "teachers": ["Till", "Esch"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -69,8 +66,7 @@
     "y": 750,
     "width": 100,
     "height": 100,
-    "teachers": ["Till", "Esch"],
-    "color": "red",
+    "color": "black",
     "bgcolor": "#C7C8CC"
   },
   {
@@ -100,7 +96,80 @@
     "y": 800,
     "width": 130,
     "height": 50,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 11,
+    "name": "Schody 1",
+    "x": 160,
+    "y": 150,
+    "width": 180,
+    "height": 50,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 12,
+    "name": "Schody 3",
+    "x": 790,
+    "y": 320,
+    "width": 50,
+    "height": 100,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 13,
+    "name": "Schody 4",
+    "x": 690,
+    "y": 800,
+    "width": 100,
+    "height": 50,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 14,
+    "name": "Hall Four",
+    "x": 340,
+    "y": 80,
+    "width": 40,
+    "height": 120,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 15,
+    "name": "Toalety Pánské",
+    "x": 380,
+    "y": 80,
+    "width": 50,
+    "height": 120,
+    "bgcolor": "#3652AD"
+  },
+  {
+    "id": 16,
+    "name": "Kabinet TV",
+    "x": 500,
+    "y": 140,
+    "width": 40,
+    "height": 60,
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 17,
+    "name": "Tělocvična",
+    "x": 540,
+    "y": 20,
+    "width": 180,
+    "height": 180,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 100,
+    "name": "učebna 24",
+    "x": 200,
+    "y": 20,
+    "width": 180,
+    "height": 90,
     "teachers": ["Till", "Esch"],
+    "description": "supa seret roomka",
     "bgcolor": "#7FC7D9"
   },
   {

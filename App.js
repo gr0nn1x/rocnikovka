@@ -101,6 +101,12 @@ export default function App() {
                   Teacher: {selectedData.teachers}
                 </Text>
               )}
+              {selectedData && selectedData.description && (
+                <Text style={styles.descriptionText}>
+                  Popis: {selectedData.description}
+                </Text>
+              )}
+
               <View style={styles.buttonContainer}>
                 <Button title="Close" onPress={closeModal} />
               </View>
@@ -161,6 +167,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    textAlign: "center",
+    color: "black",
+    fontSize: 60,
+    fontFamily: "Kanit-Black",
   },
   content: {
     width: 1000,
@@ -195,13 +205,19 @@ const styles = StyleSheet.create({
   teacherText: {
     color: "#1035F1",
     fontSize: 18,
-    marginBottom: 10,
+    marginTop: 10,
+  },
+  descriptionText: {
+    color: "#1035F1",
+    fontSize: 18,
+    marginBottom: 0,
   },
   buttonContainer: {
     marginTop: "auto",
   },
   fixedView: {
     position: "absolute",
+    display: "none",
     bottom: 0,
     left: 0,
     right: 0,
