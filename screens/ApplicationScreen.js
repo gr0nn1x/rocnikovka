@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "black",
     fontSize: 60,
-    fontFamily: "Kanit-Black",
+    FontFamily: "Kanit-Black",
   },
   content: {
     width: 1000,
