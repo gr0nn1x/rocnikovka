@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
   },
   fixedView: {
     position: "absolute",
-    display: "none",
+  /*   display: "none", */
     bottom: 0,
     left: 0,
     right: 0,
