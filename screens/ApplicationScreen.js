@@ -33,23 +33,19 @@ export default function App() {
   };
 
   const changeFloorToSecond = () => {
-    console.log("second floor");
     setSelectedFloor("second");
     setDataList(secondDataList);
   };
   const changeFloorToFirst = () => {
-    console.log("first floor");
     setSelectedFloor("first");
     setDataList(firstDataList);
   };
 
   const changeFloorToGround = () => {
-    console.log("ground floor");
     setSelectedFloor("ground");
     setDataList(groundDataList);
   };
   const changeFloorToBasement = () => {
-    console.log("basement floor");
     setSelectedFloor("basement");
     setDataList(basementDataList);
   };
@@ -78,7 +74,7 @@ export default function App() {
                       styles.room,
                     ]}
                   >
-                    <Text>{data.name}</Text>
+                    <Text style={styles.roomText}>{data.name}</Text>
                   </View>
                 </TouchableWithoutFeedback>
               );
@@ -119,7 +115,6 @@ export default function App() {
           <View
             style={[
               styles.switch,
-              styles.switchOne,
               selectedFloor === "second" && styles.selectedFloor,
             ]}
           >
@@ -130,7 +125,6 @@ export default function App() {
           <View
             style={[
               styles.switch,
-              styles.switchTwo,
               selectedFloor === "first" && styles.selectedFloor,
             ]}
           >
@@ -141,7 +135,6 @@ export default function App() {
           <View
             style={[
               styles.switch,
-              styles.switchThree,
               selectedFloor === "ground" && styles.selectedFloor,
             ]}
           >
@@ -152,7 +145,6 @@ export default function App() {
           <View
             style={[
               styles.switch,
-              styles.switchFour,
               selectedFloor === "basement" && styles.selectedFloor,
             ]}
           >
@@ -167,21 +159,22 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    textAlign: "center",
-    color: "black",
-    fontSize: 60,
-    FontFamily: "Kanit-Black",
+    backgroundColor: "#e0e0e0",
   },
   content: {
     width: 1000,
     height: 1500,
-    backgroundColor: "#DCF2F1",
+    backgroundColor: "#f0f0f0",
   },
   room: {
     position: "absolute",
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 1,
+  },
+  roomText: {
+    color: "#333",
+    fontSize: 12,
   },
   modalContainer: {
     flex: 1,
@@ -190,7 +183,7 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(0, 0, 0, 0.5)",
   },
   modalContent: {
-    backgroundColor: "#7FC7D9",
+    backgroundColor: "#fff",
     width: windowWidth * 0.8,
     height: windowHeight * 0.8,
     padding: 20,
@@ -198,18 +191,18 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   modalText: {
-    color: "#1035F1",
-    fontSize: 24,
+    color: "#333",
+    fontSize: 20,
     marginBottom: 10,
   },
   teacherText: {
-    color: "#1035F1",
-    fontSize: 18,
+    color: "#333",
+    fontSize: 16,
     marginTop: 10,
   },
   descriptionText: {
-    color: "#1035F1",
-    fontSize: 18,
+    color: "#333",
+    fontSize: 16,
     marginBottom: 0,
   },
   buttonContainer: {
@@ -217,28 +210,26 @@ const styles = StyleSheet.create({
   },
   fixedView: {
     position: "absolute",
-  /*   display: "none", */
     bottom: 0,
     left: 0,
     right: 0,
-    justifyContent: "space-between",
+    flexDirection: "row",
+    justifyContent: "space-around",
+    backgroundColor: "#333",
     padding: 10,
   },
   switch: {
     height: windowHeight * 0.06,
-    width: windowWidth * 0.95,
-    marginTop: 10,
+    width: windowWidth * 0.2,
     borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
   },
   switchText: {
-    color: "white",
-    fontSize: 20,
+    color: "#fff",
+    fontSize: 14,
   },
-  switchOne: { backgroundColor: "black" },
-  switchTwo: { backgroundColor: "black" },
-  switchThree: { backgroundColor: "black" },
-  switchFour: { backgroundColor: "black" },
-  selectedFloor: { backgroundColor: "grey" },
+  selectedFloor: {
+    backgroundColor: "#666",
+  },
 });

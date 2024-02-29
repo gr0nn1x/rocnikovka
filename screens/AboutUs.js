@@ -4,10 +4,9 @@ import { View, Text, StyleSheet } from "react-native";
 export default function Welcome() {
   return (
     <View style={styles.container}>
-      <Text style={styles.nadpis}>Proč tento projekt vznikl? </Text>
-      <Text style={styles.popisjedna}>
-        Cílem bylo vytvořit pomůcku pro návštěvníky školy, kteří neznají
-        rozpoložení učeben
+      <Text style={styles.title}>Proč jsme vytvořili tento projekt?</Text>
+      <Text style={styles.description}>
+        Cílem bylo usnadnit orientaci návštěvníkům školy a poskytnout jim informace o prostorách.
       </Text>
     </View>
   );
@@ -18,8 +17,21 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#f0f0f0",
-    textAlign: "center",
+    backgroundColor: "#1f1f1f", 
+    paddingHorizontal: 20,
   },
-  nadpis: { fontSize: 20, },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#ffffff", 
+    marginBottom: 20,
+    textAlign: "center",
+    fontFamily: "Arial", 
+  },
+  description: {
+    fontSize: 18,
+    color: "#cccccc", 
+    textAlign: "center",
+    fontFamily: "Arial",
+  },
 });
