@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "  V       ch      o      d",
+    "name": "IN n OUT",
     "x": 160,
     "y": 200,
     "width": 30,
@@ -87,7 +87,7 @@
     "width": 130,
     "height": 50,
     "teachers": ["Till", "Esch"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#7E2553"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "y": 800,
     "width": 130,
     "height": 50,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#7E2553"
   },
   {
     "id": 11,
@@ -200,6 +200,146 @@
     "width": 130,
     "height": 120,
     "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 35,
+    "name": "Učebna 35",
+    "x": 110,
+    "y": 850,
+    "width": 140,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 37,
+    "name": "Učebna 37",
+    "x": 290,
+    "y": 850,
+    "width": 140,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 36,
+    "name": "Vchod do dílen",
+    "x": 250,
+    "y": 850,
+    "width": 40,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 36,
+    "name": "Učebna 38 ANJ",
+    "x": 320,
+    "y": 800,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 36,
+    "name": "Schody 5",
+    "x": 320,
+    "y": 750,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 50,
+    "name": "Square",
+    "x": 320,
+    "y": 300,
+    "width": 80,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 110,
+    "name": "Relaxační roomka",
+    "x": 400,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "green"
+  },
+  {
+    "id": 111,
+    "name": "Učebna 39",
+    "x": 545,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 111,
+    "name": "Učebna 39",
+    "x": 545,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 666,
+    "name": "KIOSEK",
+    "x": 790,
+    "y": 200,
+    "width": 110,
+    "height": 120,
+    "color": "black",
+    "bgcolor": "green"
+  },
+  {
+    "id": 666,
+    "name": "Schody 6",
+    "x": 690,
+    "y": 420,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 43,
+    "name": "Učebna 43",
+    "x": 790,
+    "y": 420,
+    "width": 100,
+    "height": 120,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 44,
+    "name": "Učebna 44",
+    "x": 790,
+    "y": 540,
+    "width": 100,
+    "height": 120,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 45,
+    "name": "Učebna 45",
+    "x": 790,
+    "y": 660,
+    "width": 100,
+    "height": 120,
+    "color": "black",
     "bgcolor": "#7FC7D9"
   }
 ]
