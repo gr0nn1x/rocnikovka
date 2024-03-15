@@ -223,7 +223,7 @@
     "bgcolor": "#7FC7D9"
   },
   {
-    "id": 36,
+    "id": 999,
     "name": "Vchod do dílen",
     "x": 250,
     "y": 850,
@@ -233,7 +233,7 @@
     "bgcolor": "#C7C8CC"
   },
   {
-    "id": 36,
+    "id": 38,
     "name": "Učebna 38 ANJ",
     "x": 320,
     "y": 800,
@@ -243,7 +243,7 @@
     "bgcolor": "#7FC7D9"
   },
   {
-    "id": 36,
+    "id": 39,
     "name": "Schody 5",
     "x": 320,
     "y": 750,
@@ -283,7 +283,7 @@
     "bgcolor": "#7FC7D9"
   },
   {
-    "id": 111,
+    "id": 112,
     "name": "Učebna 39",
     "x": 545,
     "y": 300,
@@ -300,7 +300,8 @@
     "width": 110,
     "height": 120,
     "color": "black",
-    "bgcolor": "green"
+    "bgcolor": "green",
+    "photo": "../assets/kiosek.jpg"
   },
   {
     "id": 666,
@@ -329,7 +330,7 @@
     "y": 540,
     "width": 100,
     "height": 120,
-    "color": "black", 
+    "color": "black",
     "bgcolor": "#7FC7D9"
   },
   {

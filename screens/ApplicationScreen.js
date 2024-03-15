@@ -8,6 +8,7 @@ import {
   Modal,
   Button,
   Dimensions,
+  Image,
 } from "react-native";
 import groundDataList from "../data/groundFloorData.json";
 import firstDataList from "../data/firstFloorData.json";
@@ -55,10 +56,10 @@ export default function App() {
       <ScrollView>
         <ScrollView horizontal={true}>
           <View style={styles.content}>
-            {dataList.map((data) => {
+            {dataList.map((data, index) => {
               return (
                 <TouchableWithoutFeedback
-                  key={data.id}
+                  key={index}
                   onPress={() => test(data)}
                 >
                   <View
@@ -102,7 +103,12 @@ export default function App() {
                   Popis: {selectedData.description}
                 </Text>
               )}
-
+              {selectedData && selectedData.photo && (
+                <Image
+                  source={{ uri: selectedData.photo }}
+                  style={styles.photo}
+                />
+              )}
               <View style={styles.buttonContainer}>
                 <Button title="Close" onPress={closeModal} />
               </View>
@@ -203,7 +209,13 @@ const styles = StyleSheet.create({
   descriptionText: {
     color: "#333",
     fontSize: 16,
-    marginBottom: 0,
+    marginBottom: 10,
+  },
+  photo: {
+    width: windowWidth * 0.6,
+    height: windowHeight * 0.4,
+    resizeMode: "contain",
+    marginVertical: 10,
   },
   buttonContainer: {
     marginTop: "auto",
