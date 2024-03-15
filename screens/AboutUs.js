@@ -6,7 +6,7 @@ export default function Welcome() {
     <View style={styles.container}>
       <Text style={styles.title}>Proč jsme vytvořili tento projekt?</Text>
       <Text style={styles.description}>
-        Cílem bylo usnadnit orientaci návštěvníkům školy a poskytnout jim informace o prostorách.
+        Cílem bylo usnadnit orientaci návštěvníkům školy a poskytnout jim informace o prostorách ve kterých se nacházejí.
       </Text>
     </View>
   );

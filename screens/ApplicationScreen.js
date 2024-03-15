@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   View,
   Text,
@@ -65,17 +65,30 @@ export default function App() {
                   <View
                     style={[
                       {
+                        position: "absolute",
                         left: data.x,
                         top: data.y,
                         width: data.width,
                         height: data.height,
                         borderColor: data.color,
                         backgroundColor: data.bgcolor,
+                        justifyContent: "center",
+                        alignItems: "center",
                       },
                       styles.room,
                     ]}
                   >
                     <Text style={styles.roomText}>{data.name}</Text>
+                    {data.photo && (
+                      <Image
+                        source={{ uri: data.photo }}
+                        style={{
+                          width: data.width * 0.8, // 80% of room width
+                          height: data.height * 0.8, // 80% of room height
+                          resizeMode: "contain",
+                        }}
+                      />
+                    )}
                   </View>
                 </TouchableWithoutFeedback>
               );
