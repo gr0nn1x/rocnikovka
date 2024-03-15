@@ -1,10 +1,17 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
+const logo = require("../assets/logo.png");
 
 export default function Welcome({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Mapa Střední Průmyslové Školy v Mladé Boleslavy</Text>
+      <Image
+        source={logo}
+        style={{ width: 200, height: 200, margin: 50 }}
+      ></Image>
+      <Text style={styles.welcomeText}>
+        Mapa Střední Průmyslové Školy v Mladé Boleslavy
+      </Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate("Application")}
@@ -26,18 +33,18 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#e5e5e5", 
+    backgroundColor: "#e5e5e5",
     paddingHorizontal: 20,
   },
   welcomeText: {
     fontSize: 28,
     fontWeight: "bold",
     marginBottom: 40,
-    color: "#4a4a4a", 
+    color: "#4a4a4a",
     textAlign: "center",
   },
   button: {
-    backgroundColor: "#ff6f61", 
+    backgroundColor: "#ff6f61",
     paddingVertical: 15,
     paddingHorizontal: 30,
     borderRadius: 10,
@@ -46,7 +53,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   buttonText: {
-    color: "#ffffff", 
+    color: "#ffffff",
     fontSize: 16,
     fontWeight: "bold",
   },
