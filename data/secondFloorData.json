@@ -1,13 +1,266 @@
 [
-    {
-      "id": 30,
-      "name": "roomka 90",
-      "x": 100,
-      "y": 100,
-      "width": 150,
-      "height": 50,
-      "teachers": ["Till", "Esch"],
-      "color": "#0F1035"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "balkon",
+    "x": 190,
+    "y": 200,
+    "width": 30,
+    "height": 100,
+    "color": "#0F1035",
+    "bgcolor": "#7FC7D9",
+    "description": "aaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "id": 2,
+    "name": "Hall One",
+    "x": 220,
+    "y": 200,
+    "width": 570,
+    "height": 100,
+    "color": "FE7A36",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 3,
+    "name": "Hall Two",
+    "x": 220,
+    "y": 300,
+    "width": 100,
+    "height": 400,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 5,
+    "name": "Schody 1",
+    "x": 220,
+    "y": 700,
+    "width": 100,
+    "height": 50,
+    "teachers": ["UwU školník"],
+    "bgcolor": "lightgreen"
+  },
+
+  {
+    "id": 7,
+    "name": "Hall Square One",
+    "x": 220,
+    "y": 750,
+    "width": 100,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 8,
+    "name": "huh",
+    "x": 120,
+    "y": 300,
+    "width": 100,
+    "height": 60,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 11,
+    "name": "Schody 1",
+    "x": 240,
+    "y": 150,
+    "width": 100,
+    "height": 50,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 14,
+    "name": "Hall Four",
+    "x": 340,
+    "y": 80,
+    "width": 40,
+    "height": 120,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 15,
+    "name": "Toalety dámské",
+    "x": 380,
+    "y": 150,
+    "width": 100,
+    "height": 50,
+    "bgcolor": "red"
+  },
+  {
+    "id": 100,
+    "name": "učebna 24",
+    "x": 230,
+    "y": 40,
+    "width": 150,
+    "height": 40,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 500,
+    "name": "učebna hardware",
+    "x": 190,
+    "y": 80,
+    "width": 150,
+    "height": 60,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 501,
+    "name": "učebna 111",
+    "x": 130,
+    "y": 0,
+    "width": 100,
+    "height": 80,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 125,
+    "name": "učebna elektrotechniky",
+    "x": 140,
+    "y": 540,
+    "width": 80,
+    "height": 80,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 126,
+    "name": "kabinet catia master",
+    "x": 120,
+    "y": 360,
+    "width": 100,
+    "height": 100,
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 123,
+    "name": "učebna elektrotechniky",
+    "x": 140,
+    "y": 460,
+    "width": 80,
+    "height": 80,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 124,
+    "name": "učebna elektrotechniky",
+    "x": 140,
+    "y": 620,
+    "width": 80,
+    "height": 80,
+    "teachers": ["Till", "Esch"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 32,
+    "name": "random ass roomka",
+    "x": 120,
+    "y": 700,
+    "width": 100,
+    "height": 50,
+
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 35,
+    "name": "Učebna 35",
+    "x": 100,
+    "y": 750,
+    "width": 120,
+    "height": 150,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 37,
+    "name": "Učebna LT",
+    "x": 220,
+    "y": 850,
+    "width": 140,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 38,
+    "name": "místnost 95",
+    "x": 320,
+    "y": 800,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 39,
+    "name": "Schody 5",
+    "x": 320,
+    "y": 750,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 110,
+    "name": "učebna 99",
+    "x": 400,
+    "y": 300,
+    "width": 180,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 110,
+    "name": "ruzickova",
+    "x": 320,
+    "y": 300,
+    "width": 80,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 100,
+    "name": "Učebna 100",
+    "x": 680,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 101,
+    "name": "Kabinet  AS",
+    "x": 825,
+    "y": 300,
+    "width": 50,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 112,
+    "name": "kabinet topferova",
+    "x": 580,
+    "y": 300,
+    "width": 100,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 666,
+    "name": "Kabinet ANJ",
+    "x": 790,
+    "y": 200,
+    "width": 110,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "green"
+  }
+]
