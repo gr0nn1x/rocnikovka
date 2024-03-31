@@ -11,7 +11,7 @@ export default function Welcome() {
     </View>
   );
 }
-
+//AA
 const styles = StyleSheet.create({
   container: {
     flex: 1,
