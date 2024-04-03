@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Hall One",
+    "name": "CHODBA C",
     "x": 190,
     "y": 200,
     "width": 600,
@@ -22,7 +22,7 @@
   },
   {
     "id": 3,
-    "name": "Hall Two",
+    "name": "CHODA A",
     "x": 220,
     "y": 300,
     "width": 100,
@@ -32,7 +32,7 @@
   },
   {
     "id": 4,
-    "name": "Hall Three",
+    "name": "CHODBA C",
     "x": 690,
     "y": 300,
     "width": 100,
@@ -301,7 +301,7 @@
     "height": 120,
     "color": "black",
     "bgcolor": "green",
-    "photo": "../assets/kiosek.jpg"
+    "photo": "../assets/kiosek.png"
   },
   {
     "id": 666,
@@ -342,5 +342,16 @@
     "height": 120,
     "color": "black",
     "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 6666,
+    "name": "amos",
+    "x": 295,
+    "y": 280,
+    "width": 50,
+    "height": 50,
+    "color": "#C7C8CC",
+    "bgcolor": "#C7C8CC",
+    "photo": "../assets/amos.jpg"
   }
 ]
