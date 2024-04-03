@@ -21,7 +21,7 @@ const windowWidth = Dimensions.get("window").width;
 export default function App() {
   const [selectedData, setSelectedData] = useState(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [dataList, setDataList] = useState(groundDataList);
+  const [dataList, setDataList] = useState(basementDataList);
   const [selectedFloor, setSelectedFloor] = useState("ground");
 
   const test = (data) => {
@@ -194,12 +194,14 @@ const styles = StyleSheet.create({
   roomText: {
     color: "#333",
     fontSize: 12,
+    textAlign: "center",
   },
   modalContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
+    textAlign: "center",
   },
   modalContent: {
     backgroundColor: "#fff",
@@ -208,16 +210,19 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 10,
     alignItems: "center",
+    textAlign: "center",
   },
   modalText: {
     color: "#333",
     fontSize: 20,
     marginBottom: 10,
+    textAlign: "center",
   },
   teacherText: {
     color: "#333",
     fontSize: 16,
     marginTop: 10,
+    textAlign: "center",
   },
   descriptionText: {
     color: "#333",

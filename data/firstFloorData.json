@@ -1,13 +1,351 @@
 [
-    {
-      "id": 30,
-      "name": "první patřasdasdsddasíčko roomka",
-      "x": 100,
-      "y": 100,
-      "width": 150,
-      "height": 50,
-      "teachers": ["Till", "Esch"],
-      "color": "#0F1035"
-    }
-  ]
-  
+  {
+    "id": 2,
+    "name": "CHODBA C",
+    "x": 190,
+    "y": 200,
+    "width": 600,
+    "height": 100,
+    "color": "FE7A36",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 3,
+    "name": "CHODBA B",
+    "x": 220,
+    "y": 300,
+    "width": 100,
+    "height": 400,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 4,
+    "name": "CHODBA D",
+    "x": 690,
+    "y": 300,
+    "width": 100,
+    "height": 500,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 5,
+    "name": "Schody",
+    "x": 220,
+    "y": 700,
+    "width": 100,
+    "height": 50,
+    "teachers": ["UwU školník"],
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 6,
+    "name": "Schody 2",
+    "x": 90,
+    "y": 570,
+    "width": 130,
+    "height": 120,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 7,
+    "name": "Hall Square One",
+    "x": 220,
+    "y": 750,
+    "width": 100,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 8,
+    "name": "Narnie",
+    "x": 120,
+    "y": 300,
+    "width": 100,
+    "height": 30,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 9,
+    "name": "Kabinet Mgr. Švábová, Kupka",
+    "x": 90,
+    "y": 750,
+    "width": 130,
+    "height": 50,
+    "teachers": ["Mgr. Šárka Švábová", "Mgr. Karel Kupka"],
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 10,
+    "name": "Kabinet Ing. Fikar, Svárovský, Koťátková, PaedDr. Kyzslíková",
+    "x": 90,
+    "y": 800,
+    "width": 130,
+    "height": 50,
+    "teachers": [
+      "Ing. Zdeňka Koťátková",
+      "Ing. Luboš Svárovský",
+      "Ing. Karel Fikar",
+      "PaedDr. Ladislava Kyzlíková"
+    ],
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 11,
+    "name": "Schody",
+    "x": 160,
+    "y": 150,
+    "width": 180,
+    "height": 50,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 12,
+    "name": "Schody 3",
+    "x": 790,
+    "y": 320,
+    "width": 50,
+    "height": 100,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 13,
+    "name": "Schody 4",
+    "x": 690,
+    "y": 800,
+    "width": 100,
+    "height": 50,
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 15,
+    "name": "Toalety Pánské",
+    "x": 380,
+    "y": 80,
+    "width": 50,
+    "height": 120,
+    "bgcolor": "#3652AD"
+  },
+  {
+    "id": 17,
+    "name": "Balkon tělocvičny",
+    "x": 540,
+    "y": 150,
+    "width": 180,
+    "height": 50,
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 100,
+    "name": "Sekretariát a Kancelář ředitele školy",
+    "x": 160,
+    "y": 60,
+    "width": 180,
+    "height": 90,
+    "teachers": [
+      "Ředitel Školy Ing. Václav Bohata ",
+      "zástupce ředitele Mgr. Věra Svárovská ",
+      "sekretářka Milena Šindelářová "
+    ],
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 30,
+    "name": "Učebna 52",
+    "x": 90,
+    "y": 330,
+    "width": 130,
+    "height": 150,
+    "teachers": ["Mgr. Gabriela Zakonovová"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 31,
+    "name": "Učebna 53",
+    "x": 90,
+    "y": 480,
+    "width": 130,
+    "height": 150,
+    "teachers": ["RNDr. Iva Lišková"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 32,
+    "name": "Učebna 54",
+    "x": 90,
+    "y": 630,
+    "width": 130,
+    "height": 120,
+    "teachers": ["Mgr. Šárka Švábová"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 35,
+    "name": "Učebna 57",
+    "x": 110,
+    "y": 850,
+    "width": 140,
+    "height": 100,
+    "color": "black",
+    "teachers": ["MLitt. Markéta Zajícová"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 37,
+    "name": "Učebna 59",
+    "x": 290,
+    "y": 850,
+    "width": 140,
+    "height": 100,
+    "color": "black",
+    "teachers": ["PaeDr. Hana Vítová"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 999,
+    "name": "Kabinet Uklízeček",
+    "x": 250,
+    "y": 850,
+    "width": 40,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 38,
+    "name": "Učebna 60",
+    "x": 320,
+    "y": 800,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "teachers": ["PaedDr. Ladislava Kyzlíková"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 39,
+    "name": "Schody 5",
+    "x": 320,
+    "y": 750,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 50,
+    "name": "Premianti",
+    "x": 320,
+    "y": 300,
+    "width": 80,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#C7C8CC"
+  },
+  {
+    "id": 110,
+    "name": "učebna IT 62",
+    "x": 400,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+
+  {
+    "id": 112,
+    "name": "Učebna IT 63",
+    "x": 545,
+    "y": 300,
+    "width": 145,
+    "height": 80,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 666,
+    "name": "Kabinet Mgr. Štěpánová, Štěpán",
+    "x": 790,
+    "y": 260,
+    "width": 80,
+    "height": 60,
+    "color": "black",
+    "bgcolor": "#7E2553",
+    "teachers": ["Mgr. Martin Štěpán ", "Mgr. Zdeňka Štěpánová"]
+  },
+  {
+    "id": 666,
+    "name": "Schody 6",
+    "x": 690,
+    "y": 420,
+    "width": 100,
+    "height": 50,
+    "color": "black",
+    "bgcolor": "lightgreen"
+  },
+  {
+    "id": 43,
+    "name": "Učebna 66",
+    "x": 790,
+    "y": 420,
+    "width": 100,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 44,
+    "name": "Kabinet Zvěřina, Urban, Till",
+    "x": 790,
+    "y": 520,
+    "width": 100,
+    "height": 40,
+    "color": "black",
+    "teachers": ["Radek Zvěřina, Jan Urban, Jan Till"],
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 45,
+    "name": "Učebna 68",
+    "x": 790,
+    "y": 560,
+    "width": 100,
+    "height": 100,
+    "color": "black",
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 45,
+    "name": "Serverovna",
+    "x": 790,
+    "y": 660,
+    "width": 100,
+    "height": 40,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  },
+  {
+    "id": 45,
+    "name": "učebna 70",
+    "x": 790,
+    "y": 700,
+    "width": 100,
+    "height": 70,
+    "color": "black",
+    "teachers":["Ing. Pavel Esch","Ing. Jaromír Mičík"],
+    "bgcolor": "#7FC7D9"
+  },
+  {
+    "id": 45,
+    "name": "",
+    "x": 790,
+    "y": 770,
+    "width": 100,
+    "height": 30,
+    "color": "black",
+    "bgcolor": "#7E2553"
+  }
+]

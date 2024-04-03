@@ -1,18 +1,17 @@
 [
   {
     "id": 1,
-    "name": "balkon",
+    "name": "Balkon",
     "x": 190,
     "y": 200,
     "width": 30,
     "height": 100,
     "color": "#0F1035",
-    "bgcolor": "#7FC7D9",
-    "description": "aaaaaaaaaaaaaaaaaaaaaa"
+    "bgcolor": "#7FC7D9"
   },
   {
     "id": 2,
-    "name": "Hall One",
+    "name": "CHODBA A",
     "x": 220,
     "y": 200,
     "width": 570,
@@ -22,7 +21,7 @@
   },
   {
     "id": 3,
-    "name": "Hall Two",
+    "name": "CHODBA B",
     "x": 220,
     "y": 300,
     "width": 100,
@@ -53,25 +52,29 @@
   },
   {
     "id": 8,
-    "name": "huh",
+    "name": "Hospodářka",
     "x": 120,
     "y": 300,
     "width": 100,
     "height": 60,
-    "bgcolor": "#7FC7D9"
+    "teachers": ["Zdeňka Jacinová"],
+    "bgcolor": "#7E2553"
   },
   {
     "id": 11,
-    "name": "Schody 1",
-    "x": 240,
-    "y": 150,
-    "width": 100,
-    "height": 50,
-    "bgcolor": "lightgreen"
+    "name": "Kabinet Mgr. Koštejnová, Černovská, Ing. Štěpánková, PaedDr. Vítová, Kubelková ",
+    "x": 160,
+    "y": 130,
+    "width": 180,
+    "height": 70,
+    "teachers": [
+      "Mgr. Martina Koštejnová, Mgr. Tereza Černovská, PaedDr. Hana Vítová, PaedDr. Jarmila Kubelková, Ing. Eva Štěpánková"
+    ],
+    "bgcolor": "#7E2553"
   },
   {
     "id": 14,
-    "name": "Hall Four",
+    "name": "Schody",
     "x": 340,
     "y": 80,
     "width": 40,
@@ -89,7 +92,7 @@
   },
   {
     "id": 100,
-    "name": "učebna 24",
+    "name": "Chodba",
     "x": 230,
     "y": 40,
     "width": 150,
@@ -98,11 +101,12 @@
   },
   {
     "id": 500,
-    "name": "učebna hardware",
-    "x": 190,
+    "name": "Učebna 112",
+    "x": 260,
     "y": 80,
-    "width": 150,
-    "height": 60,
+    "width": 80,
+    "height": 40,
+    "description": "HARDWARE LABORATORY",
     "bgcolor": "#7FC7D9"
   },
   {
@@ -116,56 +120,59 @@
   },
   {
     "id": 125,
-    "name": "učebna elektrotechniky",
+    "name": "Učebna 84 ELL1",
     "x": 140,
     "y": 540,
     "width": 80,
     "height": 80,
-    "teachers": ["Till", "Esch"],
+    "teachers": ["Ing. Vavřinec Korál", "Petr Štědronský"],
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 126,
-    "name": "kabinet catia master",
+    "name": "Kabinet Fikkerová & Keller",
     "x": 120,
     "y": 360,
     "width": 100,
     "height": 100,
+    "teachers": [
+      "Ing. Vojtěch Keller ",
+      "Ing. Kamila Fikkerová ",
+      "Ing. Daniela Hájková"
+    ],
     "bgcolor": "#7E2553"
   },
   {
     "id": 123,
-    "name": "učebna elektrotechniky",
+    "name": "elektrotechnická laboratoř",
     "x": 140,
     "y": 460,
     "width": 80,
     "height": 80,
-    "teachers": ["Till", "Esch"],
+    "teachers": ["Ing. Vavřinec Korál"],
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 124,
-    "name": "učebna elektrotechniky",
+    "name": "Laboratoř Automatizace 87",
     "x": 140,
     "y": 620,
     "width": 80,
     "height": 80,
-    "teachers": ["Till", "Esch"],
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 32,
-    "name": "random ass roomka",
+    "name": "Jana Augustinová Účetní",
     "x": 120,
     "y": 700,
     "width": 100,
     "height": 50,
-
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 35,
-    "name": "Učebna 35",
+    "name": "Učebna 90",
     "x": 100,
     "y": 750,
     "width": 120,
@@ -205,22 +212,25 @@
   },
   {
     "id": 110,
-    "name": "učebna 99",
+    "name": "učebna 97",
     "x": 400,
     "y": 300,
     "width": 180,
     "height": 80,
     "color": "black",
+    "teachers": ["Mgr. Martina Koštejnová "],
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 110,
-    "name": "ruzickova",
+    "name": "Kabinet Mgr. Růžičková",
     "x": 320,
     "y": 300,
     "width": 80,
     "height": 80,
     "color": "black",
+    "teachers": ["Mgr. Ludmila Růžičková"],
+    "description": "ŠKOLNÍ PORADENSKÉ PRACOVIŠTĚ , VÝCHOVNÁ PORADKYNĚ",
     "bgcolor": "#7E2553"
   },
   {
@@ -231,6 +241,7 @@
     "width": 145,
     "height": 80,
     "color": "black",
+    "description": "Učebna Jazyků",
     "bgcolor": "#7FC7D9"
   },
   {
@@ -245,22 +256,25 @@
   },
   {
     "id": 112,
-    "name": "kabinet topferova",
+    "name": "Kabinet PaedDr.Topferová, Zástupce Ředitele",
     "x": 580,
     "y": 300,
     "width": 100,
     "height": 80,
     "color": "black",
+    "teachers": ["PaedDr.Ivana Topferová"],
+    "description": "Kabinet Zástupce Ředitele",
     "bgcolor": "#7E2553"
   },
   {
     "id": 666,
-    "name": "Kabinet ANJ",
+    "name": "Kabinet Ing. Kratochvílová, MLitt. Zajícová",
     "x": 790,
     "y": 200,
     "width": 110,
     "height": 100,
     "color": "black",
-    "bgcolor": "green"
+    "teachers": ["Ing. Jitka Kratochvílová ", "MLitt. Markéta Zajícová"],
+    "bgcolor": "#7E2553"
   }
 ]

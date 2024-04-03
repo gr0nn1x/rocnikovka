@@ -47,7 +47,7 @@
     "y": 700,
     "width": 100,
     "height": 50,
-    "teachers": ["UwU školník"],
+    "teachers": ["školník"],
     "bgcolor": "lightgreen"
   },
   {
@@ -76,26 +76,29 @@
     "y": 300,
     "width": 100,
     "height": 30,
-    "teachers": ["UwU školník"],
-    "bgcolor": "#7FC7D9"
+    "teachers": ["školník"],
+    "bgcolor": "#7E2553"
   },
   {
     "id": 9,
-    "name": "paní jídelní",
+    "name": "Kancelář školní jídelny",
     "x": 90,
     "y": 750,
     "width": 130,
     "height": 50,
-    "teachers": ["Till", "Esch"],
+    "teachers": ["Irena Ratajská"],
     "bgcolor": "#7E2553"
   },
   {
     "id": 10,
-    "name": "Liškis",
+    "name": "Kabinet RNDr. Svobodová, Lišková, Mgr. Sodomková",
     "x": 90,
     "y": 800,
     "width": 130,
     "height": 50,
+    "teachers": [
+      "RNDr. Iva Lišková, RNDr. Hana Svobodová, Mdr. Petra Sodomková"
+    ],
     "bgcolor": "#7E2553"
   },
   {
@@ -145,11 +148,12 @@
   },
   {
     "id": 16,
-    "name": "Kabinet TV",
-    "x": 500,
+    "name": "Kabinet Mgr. Kovacsova, Zakonovová",
+    "x": 480,
     "y": 140,
-    "width": 40,
+    "width": 60,
     "height": 60,
+    "teachers": ["Mgr. Gabriela Kovacsová ", "Mgr. Gabriela Zakonovová"],
     "bgcolor": "#7E2553"
   },
   {
@@ -163,23 +167,22 @@
   },
   {
     "id": 100,
-    "name": "učebna 24",
+    "name": "učebna 25",
     "x": 200,
     "y": 20,
     "width": 180,
     "height": 90,
-    "teachers": ["Till", "Esch"],
-    "description": "supa seret roomka",
+    "teachers": ["Mgr. Stanislava Militká"],
+    "description": "učebna fyziky",
     "bgcolor": "#7FC7D9"
   },
   {
     "id": 30,
-    "name": "Učebna 30",
+    "name": "Učebna IT 30",
     "x": 90,
     "y": 330,
     "width": 130,
     "height": 150,
-    "teachers": ["Till", "Esch"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -189,7 +192,7 @@
     "y": 480,
     "width": 130,
     "height": 150,
-    "teachers": ["Till", "Esch"],
+    "teachers": ["Ing. Eva Štěpánková"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -199,7 +202,7 @@
     "y": 630,
     "width": 130,
     "height": 120,
-    "teachers": ["Till", "Esch"],
+    "teachers": ["Mgr. Zdeňka Štěpánová"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -210,6 +213,7 @@
     "width": 140,
     "height": 100,
     "color": "black",
+    "teachers": ["Ing. Vojtěch Keller"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -220,6 +224,7 @@
     "width": 140,
     "height": 100,
     "color": "black",
+    "teachers": ["Mgr. Petra Sodomková"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -234,12 +239,13 @@
   },
   {
     "id": 38,
-    "name": "Učebna 38 ANJ",
+    "name": "Učebna 38",
     "x": 320,
     "y": 800,
     "width": 100,
     "height": 50,
     "color": "black",
+    "teachers": ["Ing. Kamila Fikkerová"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -272,16 +278,7 @@
     "color": "black",
     "bgcolor": "green"
   },
-  {
-    "id": 111,
-    "name": "Učebna 39",
-    "x": 545,
-    "y": 300,
-    "width": 145,
-    "height": 80,
-    "color": "black",
-    "bgcolor": "#7FC7D9"
-  },
+
   {
     "id": 112,
     "name": "Učebna 39",
@@ -290,6 +287,7 @@
     "width": 145,
     "height": 80,
     "color": "black",
+    "teachers": ["Ing. Milan Rudolf"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -301,6 +299,8 @@
     "height": 120,
     "color": "black",
     "bgcolor": "green",
+    "teachers": ["Zdenka Cikraiová"],
+    "description": "Otevírací doba Po-Čt : 7:15 - 13:30, Pátek : 7:15 - 11:30",
     "photo": "../assets/kiosek.png"
   },
   {
@@ -321,6 +321,7 @@
     "width": 100,
     "height": 120,
     "color": "black",
+    "teachers": ["Ing. Pavel Esch"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -331,6 +332,7 @@
     "width": 100,
     "height": 120,
     "color": "black",
+    "teachers": ["Ing. Jaromír Mičík"],
     "bgcolor": "#7FC7D9"
   },
   {
@@ -341,6 +343,7 @@
     "width": 100,
     "height": 120,
     "color": "black",
+    "teachers": ["Ing. Martin štěpán"],
     "bgcolor": "#7FC7D9"
   },
   {
