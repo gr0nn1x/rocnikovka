@@ -21,7 +21,7 @@ const windowWidth = Dimensions.get("window").width;
 export default function App() {
   const [selectedData, setSelectedData] = useState(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [dataList, setDataList] = useState(basementDataList);
+  const [dataList, setDataList] = useState(groundDataList);
   const [selectedFloor, setSelectedFloor] = useState("ground");
 
   const test = (data) => {
@@ -83,9 +83,9 @@ export default function App() {
                       <Image
                         source={{ uri: data.photo }}
                         style={{
-                          width: data.width * 0.8, // 80% of room width
-                          height: data.height * 0.8, // 80% of room height
-                          resizeMode: "contain",
+                          width: data.width * 0.8, 
+                          height: data.height * 0.8, 
+                          resizeMode: "cover",
                         }}
                       />
                     )}
@@ -98,7 +98,7 @@ export default function App() {
         <Modal
           visible={isModalVisible}
           onRequestClose={closeModal}
-          animationType="slide"
+          animationType="slide" //ahojky honziku, jakpak se ti líbí moje rocnikovecka UwU
           presentationStyle="pageSheet"
         >
           <View style={styles.modalContainer}>
