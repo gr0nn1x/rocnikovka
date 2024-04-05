@@ -14,6 +14,8 @@ import groundDataList from "../data/groundFloorData.json";
 import firstDataList from "../data/firstFloorData.json";
 import secondDataList from "../data/secondFloorData.json";
 import basementDataList from "../data/basementFloorData.json";
+const amos = require("../assets/amos.jpg");
+const panini = require("../assets/kiosek.png");
 
 const windowHeight = Dimensions.get("window").height;
 const windowWidth = Dimensions.get("window").width;
@@ -83,8 +85,8 @@ export default function App() {
                       <Image
                         source={{ uri: data.photo }}
                         style={{
-                          width: data.width * 0.8, 
-                          height: data.height * 0.8, 
+                          width: data.width * 0.8,
+                          height: data.height * 0.8,
                           resizeMode: "cover",
                         }}
                       />
@@ -93,6 +95,32 @@ export default function App() {
                 </TouchableWithoutFeedback>
               );
             })}
+            <Image
+              source={amos}
+              style={[
+                {
+                  marginLeft: 295,
+                  marginTop: 280,
+                  width: 50,
+                  height: 50,
+                  display: "flex",
+                },
+                selectedFloor !== "ground" && { display: "none" },
+              ]}
+            ></Image>
+            <Image
+              source={panini}
+              style={[
+                {
+                  marginLeft: 790,
+                  marginTop: -120,
+                  width: 110,
+                  height: 120,
+                  display: "flex",
+                },
+                selectedFloor !== "ground" && { display: "none" },
+              ]}
+            ></Image>
           </View>
         </ScrollView>
         <Modal
