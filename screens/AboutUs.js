@@ -6,7 +6,14 @@ export default function Welcome() {
     <View style={styles.container}>
       <Text style={styles.title}>Proč jsme vytvořili tento projekt?</Text>
       <Text style={styles.description}>
-        Cílem bylo usnadnit orientaci návštěvníkům školy a poskytnout jim informace o prostorách ve kterých se nacházejí.
+        Naše škola je Velice Krásným Dílem architekta Jiřího Krohy, ale pro
+        Návštěvníky kteří ji navštěvují poprvé může být obtížné se v ní
+        orientovat, proto jsme vytvořili tuto mapu, aby se v ní lépe
+        orientovalo.
+      </Text>
+      <Text style={styles.description}>
+        Autor Projektu a Student školy: František Tesařík Pomocní učitel: Jan
+        Till
       </Text>
     </View>
   );
@@ -17,21 +24,19 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#1f1f1f", 
+    backgroundColor: "#1f1f1f",
     paddingHorizontal: 20,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    color: "#ffffff", 
+    color: "#ffffff",
     marginBottom: 20,
     textAlign: "center",
-    fontFamily: "Arial", 
   },
   description: {
     fontSize: 18,
-    color: "#cccccc", 
+    color: "#cccccc",
     textAlign: "center",
-    fontFamily: "Arial",
   },
 });

@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "IN n OUT",
+    "name": "Vchod",
     "x": 160,
     "y": 200,
     "width": 30,
     "height": 100,
     "color": "#0F1035",
-    "bgcolor": "#7FC7D9",
-    "description": "aaaaaaaaaaaaaaaaaaaaaaa"
+    "bgcolor": "#26577C",
+    "description": "Vchod do narnie"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "width": 600,
     "height": 100,
     "color": "FE7A36",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 3,
@@ -28,7 +28,7 @@
     "width": 100,
     "height": 400,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 4,
@@ -38,26 +38,26 @@
     "width": 100,
     "height": 500,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 5,
-    "name": "Schody 1",
+    "name": "Schody ",
     "x": 220,
     "y": 700,
     "width": 100,
     "height": 50,
     "teachers": ["školník"],
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 6,
-    "name": "Schody 2",
+    "name": "Schody ",
     "x": 90,
     "y": 570,
     "width": 130,
     "height": 120,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "width": 100,
     "height": 100,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "width": 100,
     "height": 30,
     "teachers": ["školník"],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "width": 130,
     "height": 50,
     "teachers": ["Irena Ratajská"],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 10,
@@ -99,34 +99,34 @@
     "teachers": [
       "RNDr. Iva Lišková, RNDr. Hana Svobodová, Mdr. Petra Sodomková"
     ],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 11,
-    "name": "Schody 1",
+    "name": "Schody ",
     "x": 160,
     "y": 150,
     "width": 180,
     "height": 50,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 12,
-    "name": "Schody 3",
+    "name": "Schody ",
     "x": 790,
     "y": 320,
     "width": 50,
     "height": 100,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 13,
-    "name": "Schody 4",
+    "name": "Schody ",
     "x": 690,
     "y": 800,
     "width": 100,
     "height": 50,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 14,
@@ -135,7 +135,7 @@
     "y": 80,
     "width": 40,
     "height": 120,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 15,
@@ -154,7 +154,7 @@
     "width": 60,
     "height": 60,
     "teachers": ["Mgr. Gabriela Kovacsová ", "Mgr. Gabriela Zakonovová"],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 17,
@@ -163,7 +163,7 @@
     "y": 20,
     "width": 180,
     "height": 180,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 100,
@@ -174,7 +174,7 @@
     "height": 90,
     "teachers": ["Mgr. Stanislava Militká"],
     "description": "učebna fyziky",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 30,
@@ -183,7 +183,7 @@
     "y": 330,
     "width": 130,
     "height": 150,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 31,
@@ -193,7 +193,7 @@
     "width": 130,
     "height": 150,
     "teachers": ["Ing. Eva Štěpánková"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 32,
@@ -203,7 +203,7 @@
     "width": 130,
     "height": 120,
     "teachers": ["Mgr. Zdeňka Štěpánová"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 35,
@@ -214,7 +214,7 @@
     "height": 100,
     "color": "black",
     "teachers": ["Ing. Vojtěch Keller"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 37,
@@ -225,7 +225,7 @@
     "height": 100,
     "color": "black",
     "teachers": ["Mgr. Petra Sodomková"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 999,
@@ -235,7 +235,7 @@
     "width": 40,
     "height": 100,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 38,
@@ -246,17 +246,17 @@
     "height": 50,
     "color": "black",
     "teachers": ["Ing. Kamila Fikkerová"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 39,
-    "name": "Schody 5",
+    "name": "Schody ",
     "x": 320,
     "y": 750,
     "width": 100,
     "height": 50,
     "color": "black",
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 50,
@@ -266,7 +266,7 @@
     "width": 80,
     "height": 80,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 110,
@@ -288,7 +288,7 @@
     "height": 80,
     "color": "black",
     "teachers": ["Ing. Milan Rudolf"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 666,
@@ -305,13 +305,13 @@
   },
   {
     "id": 666,
-    "name": "Schody 6",
+    "name": "Schody ",
     "x": 690,
     "y": 420,
     "width": 100,
     "height": 50,
     "color": "black",
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 43,
@@ -322,7 +322,7 @@
     "height": 120,
     "color": "black",
     "teachers": ["Ing. Pavel Esch"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 44,
@@ -333,7 +333,7 @@
     "height": 120,
     "color": "black",
     "teachers": ["Ing. Jaromír Mičík"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 45,
@@ -344,7 +344,7 @@
     "height": 120,
     "color": "black",
     "teachers": ["Ing. Martin štěpán"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 6666,
@@ -353,8 +353,8 @@
     "y": 280,
     "width": 50,
     "height": 50,
-    "color": "#C7C8CC",
-    "bgcolor": "#C7C8CC",
+    "color": "#EBE4D1",
+    "bgcolor": "#EBE4D1",
     "photo": "../assets/amos.jpg"
   }
 ]

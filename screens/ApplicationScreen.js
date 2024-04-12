@@ -16,6 +16,7 @@ import secondDataList from "../data/secondFloorData.json";
 import basementDataList from "../data/basementFloorData.json";
 const amos = require("../assets/amos.jpg");
 const panini = require("../assets/kiosek.png");
+const car = require("../assets/car.png");
 
 const windowHeight = Dimensions.get("window").height;
 const windowWidth = Dimensions.get("window").width;
@@ -109,6 +110,19 @@ export default function App() {
               ]}
             ></Image>
             <Image
+              source={car}
+              style={[
+                {
+                  marginLeft: 210,
+                  marginTop: 220,
+                  width: 50,
+                  height: 50,
+                  display: "flex",
+                },
+                selectedFloor !== "first" && { display: "none" },
+              ]}
+            ></Image>
+            <Image
               source={panini}
               style={[
                 {
@@ -136,7 +150,7 @@ export default function App() {
               </Text>
               {selectedData && selectedData.teachers && (
                 <Text style={styles.teacherText}>
-                  Teacher: {selectedData.teachers}
+                  Učitel/é: {selectedData.teachers}
                 </Text>
               )}
               {selectedData && selectedData.description && (

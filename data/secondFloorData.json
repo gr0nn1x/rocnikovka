@@ -7,7 +7,7 @@
     "width": 30,
     "height": 100,
     "color": "#0F1035",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "width": 570,
     "height": 100,
     "color": "FE7A36",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 3,
@@ -27,17 +27,17 @@
     "width": 100,
     "height": 400,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 5,
-    "name": "Schody 1",
+    "name": "Schody ",
     "x": 220,
     "y": 700,
     "width": 100,
     "height": 50,
     "teachers": ["UwU škkolník"],
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
 
   {
@@ -48,7 +48,7 @@
     "width": 100,
     "height": 100,
     "color": "black",
-    "bgcolor": "#C7C8CC"
+    "bgcolor": "#EBE4D1"
   },
   {
     "id": 8,
@@ -58,7 +58,7 @@
     "width": 100,
     "height": 60,
     "teachers": ["Zdeňka Jacinová"],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 11,
@@ -70,7 +70,7 @@
     "teachers": [
       "Mgr. Martina Koštejnová, Mgr. Tereza Černovská, PaedDr. Hana Vítová, PaedDr. Jarmila Kubelková, Ing. Eva Štěpánková"
     ],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 14,
@@ -79,7 +79,7 @@
     "y": 80,
     "width": 40,
     "height": 120,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 15,
@@ -88,7 +88,7 @@
     "y": 150,
     "width": 100,
     "height": 50,
-    "bgcolor": "red"
+    "bgcolor": "pink"
   },
   {
     "id": 100,
@@ -97,7 +97,7 @@
     "y": 40,
     "width": 150,
     "height": 40,
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 500,
@@ -107,7 +107,7 @@
     "width": 80,
     "height": 40,
     "description": "HARDWARE LABORATORY",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 501,
@@ -116,7 +116,7 @@
     "y": 0,
     "width": 100,
     "height": 80,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 125,
@@ -126,7 +126,7 @@
     "width": 80,
     "height": 80,
     "teachers": ["Ing. Vavřinec Korál", "Petr Štědronský"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 126,
@@ -140,7 +140,7 @@
       "Ing. Kamila Fikkerová ",
       "Ing. Daniela Hájková"
     ],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 123,
@@ -150,7 +150,7 @@
     "width": 80,
     "height": 80,
     "teachers": ["Ing. Vavřinec Korál"],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 124,
@@ -159,7 +159,7 @@
     "y": 620,
     "width": 80,
     "height": 80,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 32,
@@ -168,7 +168,7 @@
     "y": 700,
     "width": 100,
     "height": 50,
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 35,
@@ -178,7 +178,7 @@
     "width": 120,
     "height": 150,
     "color": "black",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 37,
@@ -188,7 +188,7 @@
     "width": 140,
     "height": 100,
     "color": "black",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 38,
@@ -198,17 +198,17 @@
     "width": 100,
     "height": 50,
     "color": "black",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 39,
-    "name": "Schody 5",
+    "name": "Schody",
     "x": 320,
     "y": 750,
     "width": 100,
     "height": 50,
     "color": "black",
-    "bgcolor": "lightgreen"
+    "bgcolor": "#B4B4B3"
   },
   {
     "id": 110,
@@ -219,7 +219,7 @@
     "height": 80,
     "color": "black",
     "teachers": ["Mgr. Martina Koštejnová "],
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 110,
@@ -231,7 +231,7 @@
     "color": "black",
     "teachers": ["Mgr. Ludmila Růžičková"],
     "description": "ŠKOLNÍ PORADENSKÉ PRACOVIŠTĚ , VÝCHOVNÁ PORADKYNĚ",
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 100,
@@ -242,7 +242,7 @@
     "height": 80,
     "color": "black",
     "description": "Učebna Jazyků",
-    "bgcolor": "#7FC7D9"
+    "bgcolor": "#26577C"
   },
   {
     "id": 101,
@@ -252,7 +252,7 @@
     "width": 50,
     "height": 80,
     "color": "black",
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 112,
@@ -264,7 +264,7 @@
     "color": "black",
     "teachers": ["PaedDr.Ivana Topferová"],
     "description": "Kabinet Zástupce Ředitele",
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   },
   {
     "id": 666,
@@ -275,6 +275,7 @@
     "height": 100,
     "color": "black",
     "teachers": ["Ing. Jitka Kratochvílová ", "MLitt. Markéta Zajícová"],
-    "bgcolor": "#7E2553"
+    "bgcolor": "#E55604"
   }
 ]
+  
