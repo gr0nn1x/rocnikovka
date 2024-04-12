@@ -2,6 +2,6 @@ Mobilní Aplikace - Mapa Střední průmyslové školy v mladé boleslavy, Ročn
 
 Web školy - https://www.spsmb.cz/
 
-Download pro [Android](https://expo.dev/accounts/gronnix/projects/cotokurvaje/builds/839ec14c-7798-4645-ba52-89b621bcab70)
+Download pro [Android](https://expo.dev/accounts/gronnix/projects/cotokurvaje/builds/eb257d08-e5f6-4475-bc23-463d7d12f8f3)
 
 Download pro IOS
